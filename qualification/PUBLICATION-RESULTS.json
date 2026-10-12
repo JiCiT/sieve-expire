@@ -1,0 +1,56 @@
+{
+  "release": "v0.1.0",
+  "classification": "PUBLICATION PREPARATION PASS; NOT PUBLISHED",
+  "scope": "Exact qualified DMS16.0.1 linux/arm64 image and Debian1:2.4.1+dfsg1-6+deb13u6 only",
+  "native_binaries": "unchanged previously qualified bytes; rebuilt outputs were not substituted",
+  "public_source_build": {
+    "public_inputs_only": true,
+    "source_only_checkout_build": true,
+    "four_AArch64_modules": true,
+    "two_clean_builds_byte_identical_under_recorded_conditions": true,
+    "rebuilt_outputs_runtime_qualified": false
+  },
+  "controls": {
+    "installer": 19,
+    "startup_hook": 11,
+    "result": "PASS"
+  },
+  "actual_runtime": {
+    "metadata-only installation": "PASS",
+    "explicit enable": "PASS",
+    "default fresh after removal": "PASS",
+    "idempotent repeat": "PASS",
+    "status": "PASS",
+    "LMTP/native services/authenticated TLS IMAP": "PASS",
+    "clean stop/start": "PASS",
+    "one-message dual-field MOVE": "PASS",
+    "direct expunge and precedence": "PASS",
+    "already-Trash expiry and zero-deadline neighbor preservation": "PASS",
+    "dependent-script fallback delivery": "PASS",
+    "safe full removal/admin input preservation": "PASS",
+    "owned persistent/native repair": "PASS",
+    "owned cleanup/repeat": "PASS",
+    "tamper/prospective configuration refusal before shutdown": "PASS",
+    "post-stage acceptance failure/software rollback with newer mail": "PASS",
+    "replacement startup failure/software rollback": "PASS",
+    "failed recovery actionable result and ordinary resume": "PASS",
+    "actual staged SIGKILL and ordinary resume": "PASS"
+  },
+  "publication_runtime_change": "Only private deployment module import dependency reduced to verbatim directory-bind helper definitions; same algorithms. Existing key signs revised manifest/component/public provenance; no new key/archive signature.",
+  "reporting_limit": "cleanup-only does not check service health; generic operational_state may show failed/unresolved. Use status.",
+  "limitations": [
+    "Exact target only; other architectures/backends not qualified",
+    "Bulk multi-save COPY/MOVE propagation unqualified",
+    "Enabled hibernation/power-loss/exhaustive races unqualified",
+    "Cooperative budget, not latency SLA",
+    "Independent clean-daemon restore and cached-image-missing loading not newly tested",
+    "Existing stored deadlines may be enforced; software rollback cannot reverse expunge",
+    "No automatic Trash timestamp reset; possible late-source-failure duplicate",
+    "Source build PASS is not new binary runtime qualification",
+    "Initial archive origin not independently authenticated by same-source SHA256SUMS",
+    "Existing development signer custody remains maintainer responsibility"
+  ],
+  "raw_evidence": "retained privately, not in public repository",
+  "production_access": false,
+  "publication_actions": false
+}

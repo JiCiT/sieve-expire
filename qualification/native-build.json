@@ -1,0 +1,58 @@
+{
+  "source_identity": "sha256:cd068b4e9bb0dba056a8eaa311212e25e745691391725104629a7be36d988ab6",
+  "source_sha256": {
+    "Makefile.am": "18b6c805c250b3ab5bf887a9783e37116021a190421495a8ad4ef33a6162f0ac",
+    "configure.ac": "d4ddf972a36abf0b9a0265ee4ebe0cdffa336cf2b62e656e0f333f91d95aafa8",
+    "m4/dovecot-pigeonhole.m4": "c736fc5a47aa591514ac504a181fcd2814347029501f478ce9947a5b1af6cf53",
+    "m4/dovecot.m4": "94cbb2f907eb904d3c05d4a58d9844b75f0e68108d7269cfe907168fe12e4062",
+    "src/Makefile.am": "fddfc4d7f5f16ddc3316de93826d26ea0fcc35d220e788f4a7ac740ca633f612",
+    "src/imap-sieve-expire-plugin.c": "6a573d7f15980f897aaea373a1942729ac6b135d673cf9d3e86283768527abca",
+    "src/sieve-expire-cooldown.c": "e3653514936578213f935a851a2f47a98a6f4dcc0001334a4ff7b7082eeea02a",
+    "src/sieve-expire-maintenance.c": "b5f7ceced1f4746aa8de26e8e100c40383baf9f34abcc6c31a4c52cf0b475e6c",
+    "src/sieve-expire-plugin.c": "88e4a0aab04ed5d28ec23c3e9fb3a2e22fcb081ab9f7485f157044971e85dc22",
+    "src/sieve-expire-plugin.h": "50363157c669a08c9737a0dcadf7496452625a0d505c28836e5a4337616c3698",
+    "src/sieve-expire-settings.c": "10a6d2e3dbad8bac86a98ef79beca732db64053464ba77a8c76076691361fc33",
+    "src/sieve-expire-settings.h": "d5b75b366da97959b9c6430a888bda2dfa62688e84377b741400cd52ce601654"
+  },
+  "package_revision": "1:2.4.1+dfsg1-6+deb13u6",
+  "architecture": "arm64",
+  "compiler_and_tools": {
+    "gcc": "4:14.2.0-1",
+    "gcc-14": "14.2.0-19",
+    "binutils": "2.44-3",
+    "autoconf": "2.72-3.1",
+    "automake": "1:1.17-4",
+    "libtool": "2.5.4-4",
+    "make": "4.4.1-2",
+    "libc6:arm64": "2.41-12+deb13u4",
+    "libc6-dev:arm64": "2.41-12+deb13u4",
+    "dovecot-dev": "1:2.4.1+dfsg1-6+deb13u6"
+  },
+  "upstream_inputs": {
+    "dovecot_2.4.1+dfsg1-6+deb13u6.dsc": {
+      "sha256": "3a787c1cb9ba73de6dd2f83f4a71c3ebf4b5eca3354f78294ac311936fa4be37",
+      "size": 3992
+    },
+    "dovecot_2.4.1+dfsg1.orig-pigeonhole.tar.gz": {
+      "sha256": "b014beb38600aad6b6b91ef5be5bedb353650dbf38c247b00eef95a5385dc1fb",
+      "size": 1747776
+    },
+    "dovecot_2.4.1+dfsg1.orig.tar.gz": {
+      "sha256": "fb188603f419ed7aaa07794a8692098c3ec2660bb9c67d0efe24948cbb32ae00",
+      "size": 6288223
+    },
+    "dovecot_2.4.1+dfsg1.orig.tar.gz.asc": {
+      "sha256": "ce2cd608c0362f10c89b0ec12ad79488c8c54e799375cd4a87c00baf666d7aca",
+      "size": 228
+    },
+    "dovecot_2.4.1+dfsg1-6+deb13u6.debian.tar.xz": {
+      "sha256": "69296d0696b6563949139f964f2f12318dc4fefd07f3be82dcf93a1357d1ffe8",
+      "size": 105120
+    },
+    "dovecot-dev_1%3a2.4.1+dfsg1-6+deb13u6_arm64.deb": {
+      "sha256": "e58a5436fba568a3f187368e4467a485d6a2720805ed33ecf767d812d1767851",
+      "size": 429432
+    }
+  },
+  "note": "These identify the unchanged shipped native binaries. A locally rebuilt artifact is a new artifact, not automatically qualified."
+}

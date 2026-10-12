@@ -1,0 +1,40 @@
+{
+  "format": "sieve-expire-public-qualification-summary-v1",
+  "native_source_identity": "sha256:cd068b4e9bb0dba056a8eaa311212e25e745691391725104629a7be36d988ab6",
+  "target": {
+    "architecture": "arm64",
+    "normal_packages": {
+      "dovecot-core": "1:2.4.1+dfsg1-6+deb13u6",
+      "dovecot-sieve": "1:2.4.1+dfsg1-6+deb13u6"
+    },
+    "image_ids": [
+      "sha256:d0fe7668defe157aad57ea31b1707ad1e2fb57d7a91bdf17cbdf876549946c86"
+    ],
+    "dms_version": "v16.0.1",
+    "runtime": "2.4.1-4 (7d8c0e5759)",
+    "runtime_files": {
+      "/usr/sbin/dovecot": "de37d62714c6b8d192eddec59411bc141ccd52fe301a63dcaed6cabb86dc0d4a",
+      "/usr/lib/dovecot/imap": "abc499499361c13be9d74ea836f19e1b769ec3809ae7069f5b43455b9f5c41f8",
+      "/usr/lib/dovecot/libdovecot.so.0.0.0": "580dd63fbba53609a5558aa9a48bd81d8001fcb5e9880c0eeaf76487e650f73d",
+      "/usr/lib/dovecot/libdovecot-storage.so.0.0.0": "67c306485fe80e9d225ab2249ba5dc802faa6baea966e439c62dabdf230b8df4",
+      "/usr/lib/dovecot/libdovecot-sieve.so.0.0.0": "4eef56cbddfbd1a47de4387025db11b8eda08e3a40f9677d86c909ad5bedb039"
+    }
+  },
+  "original_payload_manifest_sha256": "1bb2537d06efb56c992b484718e10c66372865a0800e5078a650e7c478cfcb7e",
+  "original_archive_sha256": "f5834b5debc453d6a787d755cad9e00787452e6316b169992652d8e0fb4fca80",
+  "gates": {
+    "A": "PASS",
+    "B": "PASS",
+    "C": "PASS",
+    "D": "PASS"
+  },
+  "limitations": [
+    "bulk multi-message propagation NOT TESTED",
+    "enabled hibernation NOT TESTED",
+    "power-loss durability NOT TESTED",
+    "other storage/architectures NOT TESTED",
+    "five seconds cooperative, no latency SLA",
+    "no automatic Trash deadline reset"
+  ],
+  "method": "Prior scoped exact-binary runtime qualification; raw evidence retained privately. Publication tests supplement it; this summary is not a new test result."
+}
