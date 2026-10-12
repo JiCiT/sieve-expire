@@ -27,3 +27,4 @@ build-output/
 *.tar.gz
 *.pem.private
 tools/build-inputs/
+/releases/
